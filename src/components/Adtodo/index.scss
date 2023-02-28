@@ -1,0 +1,28 @@
+.adTodo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 15px;
+
+    input {
+        width: 680px;
+        height: 25px;
+        border: 1px solid rgb(239, 235, 235);
+        padding-left: 7px;
+    }
+
+    button {
+        width: 100px;
+        padding: 4px;
+        color: #fff;
+        background-color: rgb(0, 128, 255);
+        padding: 7px 15px;
+        border: 1px solid rgb(243, 240, 240);
+        border-radius: 4px;
+
+        &:hover {
+            background-color: #1565c0;
+        }
+    }
+}
